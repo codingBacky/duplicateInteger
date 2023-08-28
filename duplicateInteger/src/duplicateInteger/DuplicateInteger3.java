@@ -15,7 +15,7 @@ public class DuplicateInteger3 {
 //		System.out.println(input[0] +"," + input[w]);
 //    }
     for( int i = 0; i <= input.length-1; i++) {
-    	for( int n = 0; n <= input.length-1; n++) {
+    	for( int n = i+1; n <= input.length-1; n++) {
     		if( input[i].equals(input[n]) ) {
     			if(input[i] == input[n]) {
     				break;
